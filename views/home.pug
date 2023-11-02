@@ -1,0 +1,48 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+         include ../static/style.css
+
+block content
+
+        
+    
+    section#introSection
+        div Welcome to Bhojpuria Dance Academy 
+        div.small Eat , Sleep ,Dance repeat
+        div.small Convert words into Action
+    section#messionSection
+        h2  Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-image
+                    img(src="./static/rb perfection.png", alt="")
+                div.card-content
+                    p Follow up your Each and Every moves to make them Best    
+        div.card 
+            h3 Good Teaching
+            div.card-box
+                div.card-image
+                    img(src="./static/rb dance teaching.png", alt="")
+                div.card-content
+                    p Best teachers were assit you in the class
+            
+        div.card 
+            h3 Bright Future
+            div.card-box
+                div.card-image
+                    img(src="./static/rg bright_future.png", alt="")
+                div.card-content
+                    p Here each perfect move take you to the one step forward toward your's Bright Future
+    section#sponsorSection
+        h2  Our Sponser
+        div#sponsor
+            img(src="./static/hp.jpg", alt="Sponsor Image" class="spimage")
+            img(src="./static/skype.jpg", alt="Sponsor Image" class="spimage")
+            img(src="./static/apple.jpg", alt="Sponsor Image" class="spimage")
+            img(src="./static/android logo.jpg", alt="Sponsor Image" class="spimage")
+            img(src="./static/microsoft logo.jpg", alt="Sponsor Image" class="spimage")
